@@ -3,7 +3,7 @@
 *
 * encrypts or decrypts files using keystream cipher
 */
-
+#define _DEFAULT_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

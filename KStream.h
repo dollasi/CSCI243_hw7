@@ -3,9 +3,9 @@
 #ifndef KSTREAM_H
 #define KSTREAM_H
 #include <stddef.h>
-#include <tdio.h>
+#include <stdio.h>
 
-typedef struct KStream_s* Kstream;
+typedef struct KStream_S* KStream;
 
 KStream ks_create(FILE* key_fp);
 
