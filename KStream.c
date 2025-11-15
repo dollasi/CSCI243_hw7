@@ -78,3 +78,22 @@ KStream ks_create(FILE* key_fp){
 	return ks;
 }
 
+void ks_destory(KStream ks){
+	if(ks){
+		if(ks->key){
+
+			free(ks->key);
+		}
+		free(ks);
+	}
+
+}
+
+void ks_translate(KStream ks, const unsigned char* in, unsigned char* out, size_t len) {
+	assert(ks != NULL);
+	assert(in != NULL);
+	assert(out != NULL);
+	for(size_t i = 0; i < len; i++){
+		out[i] = in[i] ^ next_byte(ks);
+	}
+}
