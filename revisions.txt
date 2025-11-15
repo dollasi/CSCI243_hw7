@@ -1,0 +1,29 @@
+commit 4920261b554605266644fce0e29441ea4e2ca7a5
+Author: Alexandria Lynne Jones <alj5312@rit.edu>
+Date:   Sat Nov 15 12:01:39 2025 -0500
+
+    ks_destroy and ks_translate
+
+commit a88d9b149c7ae9335662e46f935ed60a79c46b36
+Author: Alexandria Lynne Jones <alj5312@rit.edu>
+Date:   Sat Nov 15 11:53:19 2025 -0500
+
+    in KStream.c, added struct, a next byte func, initialize the array func, and ks create
+
+commit ef05dd1e21f8c29d2257b22bc61e4ad6f6a0b678
+Author: Alexandria Lynne Jones <alj5312@rit.edu>
+Date:   Sat Nov 15 10:48:41 2025 -0500
+
+    initial mcrypt w file handling
+
+commit e7639f014a54e59d4a007f4406a710d54a2f2f3b
+Author: Alexandria Lynne Jones <alj5312@rit.edu>
+Date:   Sat Nov 15 09:24:53 2025 -0500
+
+    add Kstream header w interface design
+
+commit 971ee4f0e0fb9f58ad538d05d9b60017805ce102
+Author: Alexandria Lynne Jones <alj5312@rit.edu>
+Date:   Fri Nov 14 19:54:51 2025 -0500
+
+    initial files
