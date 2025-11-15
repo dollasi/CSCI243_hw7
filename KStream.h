@@ -6,7 +6,7 @@
 
 typedef struct KStream_s* Kstream;
 
-KStream ks_create(File* key_fp);
+KStream ks_create(FILE* key_fp);
 
 void ks_destroy(KStream ks);
 
