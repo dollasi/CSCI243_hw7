@@ -78,7 +78,7 @@ KStream ks_create(FILE* key_fp){
 	return ks;
 }
 
-void ks_destory(KStream ks){
+void ks_destroy(KStream ks){
 	if(ks){
 		if(ks->key){
 
