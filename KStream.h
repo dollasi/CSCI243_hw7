@@ -3,6 +3,7 @@
 #ifndef KSTREAM_H
 #define KSTREAM_H
 #include <stddef.h>
+#include <tdio.h>
 
 typedef struct KStream_s* Kstream;
 
